@@ -7,6 +7,7 @@ windows.
 Neste, basta apenas indicar para a aplicação qual é o script que necessita ser transformado. Após isto, o exe estará pronto dentro
 de uma pasta chamada build.
 
+![Python](https://www.iped.com.br/img/cursos/60190.jpg)
 ## Instalação 
 Para instalar esta aplicação, é necessário instalar algumas depedências python que estão todas listadas no
 arquivo requirements.txt. O gerenciar de pacotes python é o pip. Desta forma, basta apenas utilizar o instalador
