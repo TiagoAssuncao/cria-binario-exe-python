@@ -56,6 +56,7 @@ para o script no arquivo de configuração.
 
 É recomendado apagar a pasta build ao criá-la novamente, caso já exista.
 
+![setup](https://www.visualstudio.com/wp-content/uploads/2016/06/python-1-562x309@2x-op.png)
 De toda maneira, tomada essas precauções, para a criação do binário é necessário rodar o seguinte comando:
 
 `
