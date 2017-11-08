@@ -8,7 +8,7 @@ Neste, basta apenas indicar para a aplicação qual é o script que necessita se
 de uma pasta chamada build.
 
 ![Python](https://www.iped.com.br/img/cursos/60190.jpg)
-## Instalação 
+## Instalação
 Para instalar esta aplicação, é necessário instalar algumas depedências python que estão todas listadas no
 arquivo requirements.txt. O gerenciar de pacotes python é o pip. Desta forma, basta apenas utilizar o instalador
 do pip passando as depedências necessárias. Este irá acessar o repositório remoto da pypi, onde todos os pacotes python estão armazenados, baixá-los e instalá-los.  
@@ -23,9 +23,9 @@ O uso da aplicação pode ser divido em dois passos. O primeiro se trata da conf
 
 ### Configuração do Processo
 
-Para configurarmos a aplicação, são necessários dois passos básicos: 
+Para configurarmos a aplicação, são necessários dois passos básicos:
 1. Colocar o script que desejamos compilar no mesmo diretório deste projeto, exatamente no mesmo nível do arquivo setup.py
-2. Alterar os parâmetros do arquivo config.ini, passando as opções que desejamos. 
+2. Alterar os parâmetros do arquivo config.ini, passando as opções que desejamos.
 
 O primeiro passo, referente a ter o script na mesma pasta do arquivo setup.py pode ser resolvido apenas salvando o arquivo
 neste diretório ou simplesmente o copiando.
@@ -52,7 +52,7 @@ Um exemplo de configuração do arquivo config.ini está a seguir:
 Agora que o arquivo de configuração está pronto, podemos então iniciar o processo de criação do executável.
 Toda vez que este comando for executado, uma pasta build será criada. Dentro tela, terá uma pasta contendo
 todos os pacotes necessários da aplicação. Além disso, existirá um executável exe com o exato nome que foi passado
-para o script no arquivo de configuração. 
+para o script no arquivo de configuração.
 
 É recomendado apagar a pasta build ao criá-la novamente, caso já exista.
 
@@ -60,7 +60,7 @@ para o script no arquivo de configuração.
 De toda maneira, tomada essas precauções, para a criação do binário é necessário rodar o seguinte comando:
 
 `
-python3 setup.py build
+python setup.py build
 `
 
 Este irá criar o executável ou mostrar uma mensagem na tela caso haja algum erro da compilação do arquivo.
