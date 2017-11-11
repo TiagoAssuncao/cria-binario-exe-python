@@ -1,4 +1,4 @@
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 from setuptools import find_packages
 from cx_Freeze import setup, Executable
 from configparser import ConfigParser
